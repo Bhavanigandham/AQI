@@ -1,0 +1,12 @@
+def find_largest _element(arr):
+    if not arr:
+        return none
+    
+    largest=arr[0]
+    for num in arr:
+        if num > largest:
+            largest=num
+        return largest
+    
+arr=[3,1,5,7,8,9,0,80]
+print("largest element in the array:", find_largest_element(arr))
